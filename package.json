@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahotinao-a11y/API.git"
@@ -18,7 +16,8 @@
     "url": "https://github.com/mahotinao-a11y/API/issues"
   },
   "homepage": "https://github.com/mahotinao-a11y/API#readme",
-  "dependencies": {
-    "@playwright/test": "^1.58.2"
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
   }
 }
